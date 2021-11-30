@@ -56,7 +56,6 @@ public class BookBuyerAgent extends Agent {
 
 	@Override
 	protected void takeDown() {
-		// Printout a dismissal message
 		System.out.println("Buyer-agent "+getAID().getName()+" terminating.");
 	}
 

@@ -17,6 +17,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     // https://mvnrepository.com/artifact/com.tilab.jade/jade
     implementation("com.tilab.jade:jade:4.5.0")
+    implementation files('lib/aima-core.jar')
 }
 
 
